@@ -1,0 +1,17 @@
+connection:
+  api-url: "https://servermc.ru/api/plugin"
+  secret-key: "super-secret-key"
+  poll-interval-seconds: 10
+
+notifications:
+  broadcast:
+    enabled: true
+    message: "DonateBridge | Player {player} has purchased {item}! Thank you for your support!"
+
+  private: #todo
+    enabled: true
+    message: "DonateBridge | Thank you for your purchase! Your items have been issued."
+
+  effects: #todo
+    sound: "UI_TOAST_CHALLENGE_COMPLETE"
+    particles: true
